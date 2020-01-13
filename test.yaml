@@ -3,4 +3,4 @@
   sudo: yes
   tasks:
     - name: install apache
-      yum: name=apache state=latest
+      yum: name=httpd state=latest
