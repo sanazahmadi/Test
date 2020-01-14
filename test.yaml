@@ -2,5 +2,5 @@
 - hosts: localhost
   sudo: yes
   tasks:
-    - name: install apache
-      yum: name=httpd state=latest
+    - name: install ntp
+      yum: name=ntp state=latest
