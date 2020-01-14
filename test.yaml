@@ -1,5 +1,5 @@
 ---
-- hosts: server
+- hosts: 192.168.37.119
   tasks:
     - name: install ntp
       yum: name=ntp state=latest
