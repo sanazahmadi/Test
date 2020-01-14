@@ -1,6 +1,6 @@
 ---
 - hosts: 192.168.37.119
-  sudo: yes
+  become: yes
   tasks:
     - name: install ntp
       yum: name=ntp state=latest
