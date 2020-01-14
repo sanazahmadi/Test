@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.37.119
+- hosts: test
   sudo: yes
   tasks:
     - name: install ntp
