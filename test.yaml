@@ -4,4 +4,4 @@
   tasks:
     - name: install ntp
       yum: name=ntp state=latest
-      authorized_key: user='root' key="{{lookup('file','/root/.ssh/id_rsa.pub')}}"
+  
